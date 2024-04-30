@@ -1,0 +1,29 @@
+.conteiner {
+  display: flex;
+  /* Flex serve para alinhar os itens dentro do flex-box*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: .5rem;
+}
+
+.logo {
+  color: var(--vermelho);
+  font-family: 'Neue Machina';
+  font-size: 2.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav i {
+  margin-right: .50rem;
+}

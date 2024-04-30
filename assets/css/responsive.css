@@ -1,0 +1,32 @@
+@media screen and (max-width:767px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-main {
+    margin-top: .4rem;
+    width: 15rem;
+  }
+
+  .sinopse {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sinopse {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .sinopse {
+    width: 50%;
+  }
+}
