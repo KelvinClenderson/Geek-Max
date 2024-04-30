@@ -1,7 +1,7 @@
 /* Declarando uma variavel dentro do Css */
 :root {
   --vermelho: #E50914;
-  --preto: #2a2626;
+  --preto: #000000;
 }
 
 @font-face {

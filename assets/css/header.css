@@ -5,13 +5,14 @@
   align-items: center;
   justify-content: space-between;
 
-  margin-left: .5rem;
+  margin-left: .125rem;
 }
 
 .logo {
   color: var(--vermelho);
   font-family: 'Neue Machina';
-  font-size: 2.5rem;
+  font-size: 2.125rem;
+  margin-left: 1rem;
 }
 
 nav a {
@@ -26,4 +27,22 @@ nav a:hover {
 
 nav i {
   margin-right: .50rem;
+}
+
+.button-nav {
+  background-color: rgba(0, 0, 0, .50);
+  border: none;
+  color: white;
+
+  padding: .3rem;
+  /*  margin-right: .5rem; */
+  border-radius: .5rem;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.button-nav:hover {
+  background-color: #fff;
+  color: #000;
 }

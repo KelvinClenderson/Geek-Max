@@ -9,11 +9,11 @@ $('.owl-carousel').owlCarousel({
             nav:false
         },
         767:{
-            items:3,
+            items:5,
             nav:false
         },
         1204:{
-            items:5,
+            items:10,
             nav:false
         }
     }
