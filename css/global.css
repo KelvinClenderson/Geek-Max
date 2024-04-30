@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Neue Machina';
-  src: url('../fonts/NeueMachina-Regular.otf');
+  src: url('/fonts/NeueMachina-Regular.otf');
 }
 
 * {
@@ -20,5 +20,5 @@
 body {
   background-color: var(--preto);
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
 }
