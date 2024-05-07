@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
-    />
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" />
     <!-- Owl Css -->
     <link rel="stylesheet" href="/css/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="/css/owl/owl.theme.default.min.css" />
@@ -26,9 +25,12 @@
       <div class="conteiner">
         <h2 class="logo">Geek Max</h2>
         <nav>
-          <a href="#" class="button-nav"> <i class="fa-solid fa-house"></i>Inicio</a>
-          <a href="#" class="button-nav"><i class="fa-solid fa-film"></i>Series</a>
-          <a href="#" class="button-nav"> <i class="fa-solid fa-video"></i>Filmes</a>
+          <a href="#" class="button-nav"> <i
+              class="fa-solid fa-house"></i>Inicio</a>
+          <a href="#" class="button-nav"><i
+              class="fa-solid fa-film"></i>Series</a>
+          <a href="#" class="button-nav"> <i
+              class="fa-solid fa-video"></i>Filmes</a>
         </nav>
       </div>
     </header>
@@ -52,47 +54,10 @@
       </div>
     </main>
     <section class="content-filmes">
+      <h2 class="titulo">Top Rated</h2>
       <div class="carrosel-filme">
-        <div class="owl-carousel owl-theme">
-          <div class="item" style="width: auto">
-            <img class="box-filme" src="/img/capas/A era do gelo.jpg" />
-          </div>
-          <div class="item" style="width: auto">
-            <img
-              class="box-filme"
-              src="/img/capas/A era do gelo 2.jpg"
-            />
-          </div>
-          <div class="item" style="width: auto">
-            <img
-              class="box-filme"
-              src="/img/capas/A era do gelo 3.jpg"
-            />
-          </div>
-          <div class="item" style="width: auto">
-            <img class="box-filme" src="/img/capas/KungFuPanda4.jpg" />
-          </div>
-          <div class="item" style="width: auto">
-            <img class="box-filme" src="/img/capas/Batman2022.jpg" />
-          </div>
-          <div class="item" style="width: auto">
-            <img
-              class="box-filme"
-              src="/img/capas/Diários do Vampiro.jpg"
-            />
-          </div>
-          <div class="item" style="width: auto">
-            <img class="box-filme" src="/img/capas/Shrek 2.jpg" alt="" />
-          </div>
-          <div class="item" style="width: auto">
-            <img class="box-filme" src="/img/capas/Oppenheimer.jpg" />
-          </div>
-          <div class="item" style="width: auto">
-            <img class="box-filme" src="/img/capas/Rebel Moon.jpg" />
-          </div>
-          <div class="item" style="width: auto">
-            <img class="box-filme" src="/img/capas/Batman.jpg" />
-          </div>
+        <div id="topRatedList" class="owl-carousel owl-theme">
+           <!-- top rated aqui -->
         </div>
       </div>
     </section>
@@ -100,10 +65,13 @@
     <!-- Scripts Js -->
     <script
       src="https://kit.fontawesome.com/e25497519e.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="/js/owl/jquery.min.js"></script>
     <script src="/js/owl/owl.carousel.min.js"></script>
     <script src="/js/owl/main.js"></script>
+    <script src="/js/apiController/topRatedApi.js"></script>
+    <script src="/js/apiController/autenticacao.js"></script>
+    <script src="/model/modelTopRated.js"></script>
+    <script src="/js/apiController/topRatedApi.js"></script>
   </body>
 </html>
