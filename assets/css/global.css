@@ -1,0 +1,24 @@
+/* Declarando uma variavel dentro do Css */
+:root {
+  --vermelho: #E50914;
+  --preto: #000000;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../fonts/NeueMachina-Regular.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Para que os elementos de tela tenham o exato tamanho da borda da caixa, evitando que o conteúdo saia da tela  */
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--preto);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}

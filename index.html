@@ -11,14 +11,14 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" />
     <!-- Owl Css -->
-    <link rel="stylesheet" href="/css/owl/owl.carousel.min.css" />
-    <link rel="stylesheet" href="/css/owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl/owl.theme.default.min.css" />
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/global.css" />
-    <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/responsive.css" />
-    <link rel="stylesheet" href=/css/carrosel.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />s
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/carrosel.css" />
   </head>
   <body>
     <header>
@@ -53,25 +53,18 @@
         </div>
       </div>
     </main>
-    <section class="content-filmes">
-      <h2 class="titulo">Top Rated</h2>
-      <div class="carrosel-filme">
-        <div id="topRatedList" class="owl-carousel owl-theme">
-           <!-- top rated aqui -->
-        </div>
-      </div>
+    <section id="carroselPopular" class="content-filmes">
+      <h2 class="subTitulo">Popular</h2>
+      <!-- Filmes Popular aqui -->
     </section>
 
     <!-- Scripts Js -->
     <script
       src="https://kit.fontawesome.com/e25497519e.js"
       crossorigin="anonymous"></script>
-    <script src="/js/owl/jquery.min.js"></script>
-    <script src="/js/owl/owl.carousel.min.js"></script>
-    <script src="/js/owl/main.js"></script>
-    <script src="/js/apiController/topRatedApi.js"></script>
-    <script src="/js/apiController/autenticacao.js"></script>
-    <script src="/model/modelTopRated.js"></script>
-    <script src="/js/apiController/topRatedApi.js"></script>
+    <script src="./src/js/owl/jquery.min.js"></script>
+    <script src="./src/js/owl/owl.carousel.min.js"></script>
+    <script src="./src/js/owl/main.js"></script>
+    <script src="./src/js/apiController/getMovie.js"></script>
   </body>
 </html>

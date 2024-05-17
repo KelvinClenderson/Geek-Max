@@ -1,0 +1,16 @@
+.content-filmes {
+  margin-left: .125rem;
+  border-radius: 90%;
+}
+
+img {
+  border-radius: 1.5rem;
+  ;
+}
+
+.subTitulo {
+  font-size: 1.5rem;
+  margin-top: .3rem;
+  margin-left: .5rem;
+  font-family: 'Neue Machina';
+}
