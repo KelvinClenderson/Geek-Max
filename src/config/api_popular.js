@@ -11,7 +11,7 @@ const options = {
   },
 };
 
-module.exports = {
+export default {
   token,
   url,
   options,

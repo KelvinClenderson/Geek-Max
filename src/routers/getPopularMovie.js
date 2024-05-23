@@ -1,7 +1,9 @@
-const config = require("./apiConfig");
+import config from "../config/api_popular.js";
+
+const popularApi = {};
 
 // Get Movies List
-const movieListApi = (url, options) => {
+popularApi.movieListApi = (url, options) => {
   const result = fetch(url, options)
     .then((res) => res.json())
     .then((data) => {
@@ -28,3 +30,5 @@ const movieListApi = (url, options) => {
 };
 
 movieListApi(config.url, config.options);
+
+export default PopularApi;

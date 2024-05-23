@@ -10,13 +10,10 @@ HTML
 CSS
 
 ### Node Modules
-
 Node Watch - npm i node-watch
-
-### Itens adicionais
-
 Axios = npm install axios
 
-Icones = fontawesome - [text](https://fontawesome.com/)
+### Itens adicionais
+Icones = fontawesome - [Fontawesome](https://fontawesome.com/)
 
-JQuery plugin = Owl Carousel 2 - [text](https://owlcarousel2.github.io/OwlCarousel2/)
+JQuery plugin = Owl Carousel 2 - [Qwlcarousel2](https://owlcarousel2.github.io/OwlCarousel2/)
