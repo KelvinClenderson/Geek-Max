@@ -6,11 +6,14 @@
 
 Node.Js
 JavaScript
+
 HTML
+
 CSS
 
 ### Node Modules
 Node Watch - npm i node-watch
+
 Axios = npm install axios
 
 ### Itens adicionais
